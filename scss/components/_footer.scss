@@ -40,3 +40,27 @@
     }
   }
 }
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  &__logo {
+    width: 100px;
+
+    margin: auto;
+  }
+  &__social {
+    width: 150px;
+
+    margin: auto;
+    &__container {
+      padding-top: 40px;
+      width: 130px;
+      margin: auto;
+    }
+    img {
+      display: inline-block;
+      margin: auto;
+      margin-left: 15px;
+    }
+  }
+}
