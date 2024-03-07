@@ -1,0 +1,42 @@
+.owner {
+  &__container {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: auto;
+    &__profile {
+      left: -80px;
+      img {
+        width: 477px;
+      }
+    }
+    &__word {
+      width: 730px;
+      height: 413px;
+      background-color: $primary;
+      color: $white;
+      position: relative;
+      left: -80px;
+      margin-top: 150px;
+
+      h2 {
+        font-family: "fraunces";
+        font-size: 56px;
+        font-weight: 600;
+        padding-left: 70px;
+        padding-bottom: 30px;
+        padding-top: 70px;
+      }
+      p {
+        width: 580px;
+        padding-left: 70px;
+      }
+      img {
+        position: absolute;
+        right: 70px;
+        top: 250px;
+      }
+    }
+  }
+}

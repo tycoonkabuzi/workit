@@ -1,0 +1,36 @@
+.primaryDefault {
+  display: block;
+  width: 190px;
+  height: 61px;
+  border: none;
+  background-color: $secondary;
+  margin-top: 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primary;
+    border: 2px solid $secondary;
+    color: $white;
+  }
+}
+.secondaryDefault {
+  width: 140px;
+  padding: 0px;
+  margin: 0px;
+  height: 35px;
+  border: none;
+  border-bottom: 2px solid $secondary;
+  background-color: $primary;
+  color: $white;
+  cursor: pointer;
+  font-weight: 500;
+  &:hover {
+    color: $secondary;
+  }
+}
+.profile {
+  margin-left: 70px;
+}
+.center {
+  margin: auto;
+}

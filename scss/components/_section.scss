@@ -1,0 +1,40 @@
+.section {
+  background-color: $backGroundLight;
+  color: $textColor;
+  border-radius: 0% 0% 100% 100% / 69% 67% 32% 33%;
+  padding-top: 500px;
+  padding-bottom: 200px;
+  margin-top: -150px;
+  &__container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+    align-items: center;
+    &__item {
+      &--number {
+        border: 1px solid $primary;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+
+        margin: auto;
+        margin-bottom: 50px;
+        h1 {
+          padding: 5px;
+        }
+      }
+      h1 {
+        font-family: fraunces;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        padding-bottom: 30px;
+      }
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
